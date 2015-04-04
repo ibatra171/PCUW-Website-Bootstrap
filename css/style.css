@@ -8,7 +8,7 @@ body {
 .page-title {
 	font-weight: 400;
 	text-align: center;
-	padding-bottom: 10px;
+	text-color: #9e0b0f
 }
 
 .well {
@@ -53,17 +53,56 @@ ul.nav.navbar-nav#social-media > li > a >img:hover{
 	padding-top: 0px;
 }
 
+.quote {
+	text-align: center;
+}
+
+.author {
+	text-align: right;
+}
 /* current item in menu has white background */
+/*
 ul.nav.navbar-nav > li > a.current{
 	color:rgb(23, 14, 98);
 	background-color: white;
 }
+*/
+
 /* reset hover for current item */
 ul.nav.navbar-nav > li > a.current:hover{
 	font-weight: normal;
 }
 
 /* end navbar */
+
+/* for info cols */
+.col-md-4 {
+	text-align: justify;
+	
+}
+
+/* for the heading of the column */
+.col-head{
+	color: #9e0b0f;
+	text-align: center;
+}
+
+/* for columns of text below img */
+.col {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+hr.heading {
+	border-color: #999999;
+	max-width: 600px;
+}
+
+.center
+{
+	text-align: center;
+}
 
 /* Footer */
 hr.footer { 
